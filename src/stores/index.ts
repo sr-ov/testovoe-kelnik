@@ -1,8 +1,8 @@
+import { defineStore } from 'pinia'
+import { reactive } from 'vue'
 import { getApartments, getFilteredApartments } from '@/api'
 import type { IApartmentData } from '@/types'
 import type { FilterParams } from '@/types/apartment'
-import { defineStore } from 'pinia'
-import { reactive } from 'vue'
 
 export const useStore = defineStore('apartments', () => {
 	/* STATE */

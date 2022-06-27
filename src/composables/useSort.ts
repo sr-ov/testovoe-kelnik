@@ -1,4 +1,4 @@
-import { computed, ref, type ComputedRef } from 'vue'
+import { computed, ref } from 'vue'
 import orderBy from 'lodash.orderby'
 
 interface IParams {
