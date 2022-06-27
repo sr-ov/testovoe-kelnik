@@ -1,0 +1,15 @@
+$container_width: 1280;
+$container_padding: 15;
+$fz_base: 16;
+
+:root {
+	--fz-prim: #{$fz_base}px;
+	--c-prim: #0b1739;
+	--c-sec: #3eb57c;
+	--c-acc: #95d0a1;
+
+	--ff-prim: 'PT Root UI';
+
+	--container-width: #{$container_width}px;
+	--container-padding: #{$container_padding}px;
+}

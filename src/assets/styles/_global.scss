@@ -1,0 +1,31 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: var(--ff-prim), sans-serif;
+	font-size: var(--fz-prim);
+	color: var(--c-prim);
+	line-height: calc(24 / var(--fz-prim));
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+
+	&--overflow-hidden {
+		overflow-x: hidden;
+	}
+}
+
+.main {
+	flex: 1 1 auto;
+}
+
+.container {
+	max-width: calc(var(--container-width) + (var(--container-padding) * 2));
+	padding-left: var(--container-padding);
+	padding-right: var(--container-padding);
+	margin: 0 auto;
+}

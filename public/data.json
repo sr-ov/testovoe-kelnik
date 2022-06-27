@@ -1,0 +1,98 @@
+[
+	{
+		"id": 1,
+		"square": 63.1,
+		"countRooms": 3,
+		"price": 6630500,
+		"floor": 1,
+		"number": 111
+	},
+	{
+		"id": 2,
+		"square": 53.1,
+		"countRooms": 2,
+		"price": 6630500,
+		"floor": 2,
+		"number": 112
+	},
+	{
+		"id": 3,
+		"square": 23.6,
+		"countRooms": 1,
+		"price": 6130500,
+		"floor": 1,
+		"number": 121
+	},
+	{
+		"id": 4,
+		"square": 60,
+		"countRooms": 3,
+		"price": 7630500,
+		"floor": 4,
+		"number": 11
+	},
+	{
+		"id": 5,
+		"square": 93.1,
+		"countRooms": 4,
+		"price": 16630500,
+		"floor": 5,
+		"number": 221
+	},
+	{
+		"id": 6,
+		"square": 43.1,
+		"countRooms": 2,
+		"price": 4430500,
+		"floor": 7,
+		"number": 31
+	},
+	{
+		"id": 7,
+		"square": 53.1,
+		"countRooms": 3,
+		"price": 5630500,
+		"floor": 7,
+		"number": 431
+	},
+	{
+		"id": 8,
+		"square": 63.3,
+		"countRooms": 3,
+		"price": 6630500,
+		"floor": 12,
+		"number": 156
+	},
+	{
+		"id": 9,
+		"square": 63.1,
+		"countRooms": 1,
+		"price": 630500,
+		"floor": 14,
+		"number": 115
+	},
+	{
+		"id": 10,
+		"square": 63.7,
+		"countRooms": 3,
+		"price": 6130500,
+		"floor": 15,
+		"number": 171
+	},
+	{
+		"id": 11,
+		"square": 61.5,
+		"countRooms": 3,
+		"price": 6630500,
+		"floor": 4,
+		"number": 118
+	},
+	{
+		"id": 12,
+		"square": 33.4,
+		"countRooms": 1,
+		"price": 1630500,
+		"floor": 2,
+		"number": 21
+	}
+]
