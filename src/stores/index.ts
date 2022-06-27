@@ -1,9 +1,8 @@
 import { getApartments, getFilteredApartments } from '@/api'
-import orderBy from 'lodash.orderby'
-import type { IApartment, IApartmentData } from '@/types'
+import type { IApartmentData } from '@/types'
 import type { FilterParams } from '@/types/apartment'
 import { defineStore } from 'pinia'
-import { computed, reactive } from 'vue'
+import { reactive } from 'vue'
 
 export const useStore = defineStore('apartments', () => {
 	/* STATE */
@@ -20,8 +19,8 @@ export const useStore = defineStore('apartments', () => {
 	async function setFilteredApartments(filterParams: FilterParams) {
 		state.apartments = await getFilteredApartments(filterParams)
 	}
-
 	/* /ACTIONS */
+
 	return {
 		state,
 		actions: {
